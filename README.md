@@ -94,7 +94,7 @@ We establish the S3 block structure in AWS using AWS CLI
   ./create_s3_bucket.sh
 ```
 
-
+###
 ## Contribution
   1. Focus changes on specific improvements.
   2. Follow project's coding style.
