@@ -108,6 +108,21 @@ We will create the AWS Lambda layer using AWS CLI
   chmod +x create_layer.sh
   ./create_layer.sh
 ```
+Next, we will create the AWS Lambda function using AWS CLI
+```terminal
+  chmod +x create_function.sh
+  ./create_function.sh
+```
+Then, we will add enviroment variables to lambda function using AWS CLI
+```terminal
+  chmod +x add_variables.sh
+  ./add_variables.sh
+```
+Now, we will conect layer to lambda function using AWS CLI
+```terminal
+  chmod +x conecting_everything.sh
+  ./conecting_everything.sh
+```
 
 
 
