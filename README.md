@@ -54,6 +54,8 @@ Below are the steps required to set up the environment and run this Data Science
 
 ## Usage
 
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
+
 ## Contribution Guidelines
   1. Focus changes on specific improvements.
   2. Follow project's coding style.
