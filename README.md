@@ -94,7 +94,11 @@ We establish the S3 block structure in AWS using AWS CLI
   ./create_s3_bucket.sh
 ```
 
-###
+### Extract Data using Lambda Function
+You will begin by importing crucial libraries, including data wrangling tools and Python's Pandas, to facilitate efficient data manipulation in your ETL process. This initial step lays the foundation for extracting data from the Spotify API using Lambda functions with event and context parameters. Additionally, you will create an in-memory dataframe and employ Pandas to read data from the API response, enabling data manipulation and transformation before sending it to a designated folder within an S3 bucket.
+
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/lambda_extraction.gif' alt="lambda_extraction">
+
 ## Contribution
   1. Focus changes on specific improvements.
   2. Follow project's coding style.
