@@ -59,8 +59,7 @@ First and foremost, we'll underscore the importance of avoiding the use of the r
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
 We navigate to the file path.
 ```terminal
-  chmod +x create_user.sh
-  ./create_user.sh
+  DE_Pipeline/IAM/
 ```
 
 We enter the AWS CLI terminal after configuring our environment, and proceed to create a new user.
