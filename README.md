@@ -8,11 +8,10 @@ This project aims to securely manage, optimize, and analyze structured and semi-
 
 - [Description](#description)
 - [Architecture](#architecture)
-- [Features](#features)
 - [Modular_Code_Overview](#modular_code_overview)
 - [Installation](#installation)
 - [Usage](#usage) 
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [Contact](#contact)
 
 ## Description
@@ -58,9 +57,8 @@ First and foremost, we'll underscore the importance of avoiding the use of the r
 
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
 We navigate to the file path.
-```terminal
-  DE_Pipeline/IAM/
-```
+
+`"/DE_Pipeline/IAM/"`
 
 We enter the AWS CLI terminal after configuring our environment, and proceed to create a new user.
 ```terminal
@@ -78,7 +76,7 @@ Next, we create a role for the AWS Glue crawler."
   ./create_rol_crawler.sh
 ```
 
-## Contribution Guidelines
+## Contribution
   1. Focus changes on specific improvements.
   2. Follow project's coding style.
   3. Provide detailed descriptions in pull requests.
