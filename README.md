@@ -123,6 +123,11 @@ Now, we will conect layer to lambda function using AWS CLI
   chmod +x conecting_everything.sh
   ./conecting_everything.sh
 ```
+Finally, we will test lambda function using AWS CLI
+```terminal
+  chmod +x test_function.sh
+  ./test_function.sh
+```
 
 
 
