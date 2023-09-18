@@ -70,13 +70,13 @@ We enter the AWS CLI terminal after configuring our environment, and proceed to 
 ```
 Now, we create a role for Lambda, which will be useful later.
 ```terminal
-  chmod +x create_rol.sh
+  chmod +x create_rol_lambda.sh
   ./create_rol.sh
 ```
 Next, we create a role for the AWS Glue crawler."
 ```terminal
   chmod +x create_user.sh
-  ./create_user.sh
+  ./create_rol_crawler.sh
 ```
 
 ## Contribution Guidelines
