@@ -99,6 +99,19 @@ You will begin by importing crucial libraries, including data wrangling tools an
 
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/lambda_extraction.gif' alt="lambda_extraction">
 
+We navigate to the location where the files we will be using are stored
+
+`"/DE_Pipeline/lambda/Extract_Data/"`
+
+We will create the AWS Lambda layer using AWS CLI
+```terminal
+  chmod +x create_layer.sh
+  ./create_layer.sh
+```
+
+
+
+
 ## Contribution
   1. Focus changes on specific improvements.
   2. Follow project's coding style.
