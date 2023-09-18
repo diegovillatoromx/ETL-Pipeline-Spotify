@@ -53,6 +53,7 @@ Below are the steps required to set up the environment and run this Data Science
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Usage
+First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions.
 ```terminal
   import pickle
   from ML_Pipeline.utils import read_data,inspection,null_values
