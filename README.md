@@ -81,6 +81,8 @@ Next, we create a role for the AWS Glue crawler."
 ### s3
 The next step in this Python ETL project is to create an AWS S3 bucket following the best practices mentioned in the official AWS documentation and copy the data into the S3 bucket using the AWS CLI (Command Line Interface). Once you have successfully created the bucket, it’s time to copy all the data (json files containing top global music features statistics for different regions) into the bucket. Then you will create an AWS Glue Catalog that will act as a central data repository.
 
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/s3_architecture.gif' alt="architecture_of_buckets">
+
 We navigate to the location where the files we will be using are stored
 
 `"/DE_Pipeline/s3/"`
