@@ -48,15 +48,17 @@ This Spotify playlist analytics project, using a batch processing approach, expl
 
 Below are the steps required to set up the environment and run this Data Science project on your local machine. Make sure you have the following installed:
 - Python 3.x: You can download it from [python.org](https://www.python.org/downloads/).
-- Pip: The Python package manager. In most cases, it comes pre-installed with Python. If not, you can install it by following [this guide](https://pip.pypa.io/en/stable/installing/).
+- Pip: In most cases you can install [here](https://pip.pypa.io/en/stable/installing/).
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Usage
+
 ### IAM
 First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions. 
 
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
-We navigate to the file path.
+
+We navigate to the location where the files we will be using are stored
 
 `"/DE_Pipeline/IAM/"`
 
