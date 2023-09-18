@@ -54,23 +54,8 @@ This Spotify playlist analytics project, using a batch processing approach, expl
 Below are the steps required to set up the environment and run this Data Science project on your local machine. Make sure you have the following installed:
 - Python 3.x: You can download it from [python.org](https://www.python.org/downloads/).
 - Pip: The Python package manager. In most cases, it comes pre-installed with Python. If not, you can install it by following [this guide](https://pip.pypa.io/en/stable/installing/).
+- AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
-### Prerequisites
-
-Install required packages using the requirements.txt file:
-``` bash
-pip install -r requirements.txt
-```
-### Installation Steps
-
-1. **Clone the Repository:**
-
-   Clone this repository to your local machine using Git:
-
-   ```bash
-   git clone https://github.com/diegovillatoromx/Customer_Churn_Prediction_Model
-   cd yourproject
-   ```
 ## Usage
 
 ## Contribution Guidelines
