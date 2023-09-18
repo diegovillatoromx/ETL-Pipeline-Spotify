@@ -53,15 +53,31 @@ Below are the steps required to set up the environment and run this Data Science
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Usage
-First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions.
+### IAM
+First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions. 
 
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
-
+We navigate to the file path.
 ```terminal
   chmod +x create_user.sh
   ./create_user.sh
 ```
 
+We enter the AWS CLI terminal after configuring our environment, and proceed to create a new user.
+```terminal
+  chmod +x create_user.sh
+  ./create_user.sh
+```
+Now, we create a role for Lambda, which will be useful later.
+```terminal
+  chmod +x create_rol.sh
+  ./create_rol.sh
+```
+Next, we create a role for the AWS Glue crawler."
+```terminal
+  chmod +x create_user.sh
+  ./create_user.sh
+```
 
 ## Contribution Guidelines
   1. Focus changes on specific improvements.
