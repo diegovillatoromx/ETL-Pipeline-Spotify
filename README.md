@@ -28,6 +28,8 @@ The ETL pipeline for Spotify adeptly oversees the ETL (Extract, Transform, Load)
 
 ## Data Description
 
+This Spotify playlist analytics project, using a batch processing approach, explores the global top charts. It leverages JSON files for data extraction, focusing on key attributes such as albums, songs, artists, song IDs, and more, all of which are highly popular on Spotify's global social network. These attributes serve as the basis for Spotify's algorithm-driven rankings and statistics.
+
 ## Modular_Code_Overview
 
 ```
