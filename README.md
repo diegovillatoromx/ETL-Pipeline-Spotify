@@ -33,22 +33,21 @@ This Spotify playlist analytics project, using a batch processing approach, expl
 ## Modular_Code_Overview
 
 ```
-  input
-    |_data_regression.csv
+  Data-Batch-Spotify-API
+    |_credentials.csv
 
-  ML_pipeline
-    |_evaluate_metrics.py
-    |_lime.py
-    |_ml_model.py
-    |_utils.py
+  DE_Pipeline
+    |_IAM
+      |_IAM
+    |_IAM
+      |_IAM
+      |_IAM
 
   Tutorial
-    |_decision_tree.ipynb
+    |_tutorial_aws.ipynb
 
-  output
-    |_LIME_reports folder
-    |_models folder
-    |_ROC_curves folder
+  spotipy_library
+    |_spotipy_layer.zip
 ```
 ## Installation
 
