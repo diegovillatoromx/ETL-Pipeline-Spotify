@@ -53,7 +53,15 @@ Below are the steps required to set up the environment and run this Data Science
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Usage
-
+```terminal
+  import pickle
+  from ML_Pipeline.utils import read_data,inspection,null_values
+  from ML_Pipeline.ml_model import prepare_model_smote,run_model
+  from ML_Pipeline.evaluate_metrics import confusion_matrix,roc_curve
+  from ML_Pipeline.feature_imp import plot_feature_importances
+  from ML_Pipeline.plot_model import plot_model
+  import matplotlib.pyplot as plt
+```
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/iam_user.gif' alt="iam_user">
 
 ## Contribution Guidelines
