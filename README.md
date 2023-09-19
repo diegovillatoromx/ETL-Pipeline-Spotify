@@ -134,6 +134,35 @@ Your journey commences with the importation of vital libraries, such as data wra
 
 <img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/transform_data.gif' alt="transform_data">
 
+We navigate to the location where the files we will be using are stored
+
+`"/DE_Pipeline/lambda/Transform_Loada_Data/"`
+
+We will create the AWS Lambda layer using AWS CLI
+```terminal
+  chmod +x create_layer.sh
+  ./create_layer.sh
+```
+Next, we will create the AWS Lambda function using AWS CLI
+```terminal
+  chmod +x create_function.sh
+  ./create_function.sh
+```
+Then, we will add enviroment variables to lambda function using AWS CLI
+```terminal
+  chmod +x add_variables.sh
+  ./add_variables.sh
+```
+Now, we will conect layer to lambda function using AWS CLI
+```terminal
+  chmod +x conecting_everything.sh
+  ./conecting_everything.sh
+```
+Finally, we will test lambda function using AWS CLI
+```terminal
+  chmod +x test_function.sh
+  ./test_function.sh
+```
 
 
 ## Contribution
