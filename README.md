@@ -157,29 +157,55 @@ Finally, we will test lambda function using AWS CLI
 
 ### Data Extraction automation using Events Bridge
 
-Your journey commences with the importation of vital libraries, such as data wrangling tools and Python's Pandas, to streamline data manipulation within your ETL workflow. This initial phase serves as the bedrock for data extraction from the Spotify API through Lambda functions, thoughtfully configured with event and context parameters. Subsequently, you will establish an in-memory dataframe and harness Pandas to parse data from the API response, paving the way for data manipulation and transformation prior to dispatching it to a specified directory within an S3 bucket.
+Data extraction automation using Events Bridge streamlines and accelerates the process of gathering valuable data. By leveraging this powerful tool, organizations can seamlessly trigger and orchestrate data extraction tasks, ensuring a continuous and efficient flow of essential information.
 
-<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/transform_data.gif' alt="transform_data">
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/extract_automation.gif' alt="event_bridge">
 
 We navigate to the location where the files we will be using are stored
 
-`"/DE_Pipeline/lambda/Transform_Loada_Data/"`
+`"/DE_Pipeline/CloudWatchEvents/extract_data/"`
 
-Next, we will create the AWS Lambda function using AWS CLI
+Next, we will create create the rule on EventBridge using AWS CLI
 ```terminal
-  chmod +x create_function.sh
-  ./create_functionr.sh
+  chmod +x create_rule.sh
+  ./create_rule.sh
 ```
-We will create the AWS Lambda layer using AWS CLI
+We will add the rule to AWS Lambda using AWS CLI
 
 ```terminal
-  chmod +x add_layer.sh
-  ./add_layer.sh
+  chmod +x add_rule_lambda.sh
+  ./add_rule_lambda.sh
 ```
-Finally, we will test lambda function using AWS CLI
+Finally, we will test the rule during 3 minutes using AWS CLI
 ```terminal
-  chmod +x test_function.sh
-  ./test_function.sh
+  chmod +x diable_rule.sh
+  ./disable_rule.sh
+```
+### Data Transformation automation using Events Bridge
+
+Data extraction automation using Events Bridge streamlines and accelerates the process of gathering valuable data. By leveraging this powerful tool, organizations can seamlessly trigger and orchestrate data extraction tasks, ensuring a continuous and efficient flow of essential information.
+
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/transformed_automation.gif' alt="event_bridge">
+
+We navigate to the location where the files we will be using are stored
+
+`"/DE_Pipeline/CloudWatchEvents/transform_load_data/"`
+
+Next, we will create create the rule on EventBridge using AWS CLI
+```terminal
+  chmod +x create_ruleLT.sh
+  ./create_ruleLT.sh
+```
+We will add the rule to AWS Lambda using AWS CLI
+
+```terminal
+  chmod +x add_rule_lambdaLT.sh
+  ./add_rule_lambdaLT.sh
+```
+Finally, we will test the rule during 3 minutes using AWS CLI
+```terminal
+  chmod +x diable_ruleLT.sh
+  ./disable_ruleLT.sh
 ```
 
 
