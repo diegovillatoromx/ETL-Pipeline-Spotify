@@ -33,12 +33,12 @@ This Spotify playlist analytics project, using a batch processing approach, expl
 
   DE_Pipeline
     |_IAM
-      |_IAM
-    |_IAM
-      |_IAM
-      |_IAM
+    |_s3
+    |_Lambda
+    |_CloudWatchEvents
+    |_GlueCatalog
 
-  Tutorial
+Tutorial
     |_tutorial_aws.ipynb
 
   spotipy_library
@@ -52,6 +52,11 @@ Below are the steps required to set up the environment and run this Data Science
 - AWS CLI: you can download it from [AWSCLI.com](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Usage
+Before you begin using AWS CLI and set up the environment with  *aws configure* , it's important to follow these recommendations, you will be prompted to enter the following information:
+- Access Key ID: Your AWS Access Key ID.
+- Secret Access Key: Your AWS Secret Access Key.
+- Default region name: The AWS region you wish to use as the default (e.g., "us-east-1").
+- Default output format: Your preferred output format (e.g., "json").
 
 ### IAM
 First and foremost, we'll underscore the importance of avoiding the use of the root user for enhanced cloud security. Simultaneously, we'll initiate the creation of a new user responsible for establishing the entire architecture. In addition, we'll craft new roles, including those tailored for Lambda and AWS Glue, each meticulously configured with their requisite permissions. 
