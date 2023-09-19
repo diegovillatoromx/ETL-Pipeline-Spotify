@@ -208,6 +208,22 @@ Finally, we will test the rule during 3 minutes using AWS CLI
   ./disable_ruleLT.sh
 ```
 
+### Creating AWS Glue Catalog For The AWS ETL Pipeline
+
+Next, we will also use AWS Glue to automatically discover and catalog data stored in your S3 bucket, enabling easier data querying and analysis. You will transform semi-structured JSON data into a more organized format suitable for SQL queries using Athena's SerDe libraries. The following step will give you hands-on experience implementing an ETL process to cleanse and convert the JSON data, preparing it for further analysis and exploration using SQL queries in Athena.
+
+<img src='https://github.com/diegovillatoromx/ETL-Pipeline-Spotify/blob/main/transformed_automation.gif' alt="event_bridge">
+
+We navigate to the location where the files we will be using are stored
+
+`"/DE_Pipeline/AWSGlue/"`
+
+Next, we will create the crawler Glue to create tables on a database in AWS CLI
+```terminal
+  chmod +x create_crawlers.sh
+  ./create_crawlers.sh
+```
+
 
 ## Contribution
   1. Focus changes on specific improvements.
