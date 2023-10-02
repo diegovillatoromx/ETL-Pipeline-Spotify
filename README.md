@@ -236,4 +236,4 @@ Next, we will create the crawler Glue to create tables on a database in AWS CLI
 ## Reporting Issues
   Use "Issues" to report bugs or suggest improvements.
 # Contact
-For questions or contact, my [Mail](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx) .
+For questions or contact, my [Mail](diegovillatormx@gmail.com) or [Twitter](https://twitter.com/diegovillatomx).
