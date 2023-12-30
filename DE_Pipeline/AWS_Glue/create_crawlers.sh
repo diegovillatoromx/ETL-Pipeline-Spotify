@@ -7,7 +7,7 @@ role_name="rol_crawler"
 # Define S3 paths for the crawlers
 crawler_paths=("s3://spotify-pipeline/processed_data/songs_data/" "s3://spotify-pipeline/processed_data/artist_data/" "s3://spotify-pipeline/processed_data/album_data/")
 
-# Define the names of the crawlers
+# Define the names of the crawlers 
 crawler_names=("crawler_song" "crawler_artist" "crawler_album")
  
 # Create the database
