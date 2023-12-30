@@ -1,4 +1,4 @@
-# Define your database name
+# Define your database name 
 database_name="music_db" 
 
 # Define the common IAM role name for all crawlers 
