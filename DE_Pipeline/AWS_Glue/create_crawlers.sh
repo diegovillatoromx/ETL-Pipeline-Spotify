@@ -12,7 +12,7 @@ crawler_names=("crawler_song" "crawler_artist" "crawler_album")
  
 # Create the database
 aws glue create-database --database-input "Name=$database_name"
-
+ 
 # Loop through the S3 paths and create crawlers
 for ((i=0; i<${#crawler_paths[@]}; i++)); do 
   path="${crawler_paths[$i]}"
