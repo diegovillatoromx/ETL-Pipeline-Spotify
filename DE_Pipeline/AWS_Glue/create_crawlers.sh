@@ -3,7 +3,7 @@ database_name="music_db"
 
 # Define the common IAM role name for all crawlers
 role_name="rol_crawler"
-
+ 
 # Define S3 paths for the crawlers
 crawler_paths=("s3://spotify-pipeline/processed_data/songs_data/" "s3://spotify-pipeline/processed_data/artist_data/" "s3://spotify-pipeline/processed_data/album_data/")
 
