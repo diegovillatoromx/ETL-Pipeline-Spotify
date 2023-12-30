@@ -17,7 +17,7 @@ aws glue create-database --database-input "Name=$database_name"
 for ((i=0; i<${#crawler_paths[@]}; i++)); do 
   path="${crawler_paths[$i]}"
   crawler_name="${crawler_names[$i]}"
-  
+   
   # Create the crawler and let it infer the schema
   aws glue create-crawler --name "$crawler_name" --role "$role_name" --database-name "$database_name" --targets "S3Targets=[{Path='$path'}]"
 
