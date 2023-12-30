@@ -1,7 +1,7 @@
 # Define your database name
 database_name="music_db" 
 
-# Define the common IAM role name for all crawlers
+# Define the common IAM role name for all crawlers 
 role_name="rol_crawler"
  
 # Define S3 paths for the crawlers
