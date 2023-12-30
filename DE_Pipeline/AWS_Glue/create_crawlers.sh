@@ -23,7 +23,7 @@ for ((i=0; i<${#crawler_paths[@]}; i++)); do
 
   # Start the crawler
   aws glue start-crawler --name "$crawler_name"
- 
+  
   # Display a confirmation message
   echo "Crawler '$crawler_name' created and running."
 done
