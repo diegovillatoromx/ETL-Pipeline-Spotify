@@ -2,7 +2,7 @@
 
 # Variables
 function_name="extract_data"  # Lambda function name
-runtime="python3.8"  # Python version
+runtime="python3.8"  # Python version 
 custom_role_name="lambda_extract_role"  # Custom IAM role name
 zip_file="lambda_function.zip"
 account_id= # Your AWS ACCOUNT ID
